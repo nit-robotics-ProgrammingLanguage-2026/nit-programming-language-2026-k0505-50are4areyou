@@ -6,7 +6,7 @@ int main(void){
     if (input < 0 || input >= 10){
         printf("OK");
     }
-    if (input >= 0 && input < 10){
+    if (input <= 0 && input < 10){
         printf("NG");
     }
 return 0;
